@@ -18,3 +18,4 @@ Size of an int: 4 byte(s)<br>
 Size of a long int: 8 byte(s)<br>
 Size of a long long int: 8 byte(s)<br>
 Size of a float: 4 byte(s)<br>
+The executable file was named size64.
