@@ -1,15 +1,15 @@
 #include<stdio.h>
 /**
  * main - Entry point
- * Return: 0  once successful
+ * Return: 0 once successful
  */
 int main(void)
 {
-	int i;
+	int ahpla;
 
-	for (i = 48; i < 58; i++)
+	for (ahpla = 122; ahpla > 97; ahpla--)
 	{
-		putchar(i);
+		putchar(ahpla);
 	}
 	putchar('\n');
 	return (0);
