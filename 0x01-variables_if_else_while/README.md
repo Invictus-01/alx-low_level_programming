@@ -1,4 +1,4 @@
-C - variables, if, if...else and for loops.
+<h1>C - variables, if, if...else and for loops.</h1>
 
 <h3>Task 0</h3>
 This task required the adding of C functions, comments and system libraries in form of header files using preprocessor directives to an existing C file from Holberton github repo. The added lines of code will check the conditions of the variable n which generates random numbers whenever the program is run and print statements based on the condition of the variable n.
