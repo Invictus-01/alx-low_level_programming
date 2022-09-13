@@ -1,6 +1,7 @@
 #include "main.h"
 /**
 * _isalpha - main function
+@c: The variable given
 * Return: 1 once successful
 * Then return 0 if otherwise
 */
