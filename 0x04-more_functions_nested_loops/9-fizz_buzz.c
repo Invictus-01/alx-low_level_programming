@@ -13,7 +13,9 @@ int main(void)
 
 	for (a = 1; a <= 100; a++)
 	{
-		if ((a % 5 == 0) && (a % 3 == 0))
+		if (a == 100)
+			printf("%s", b);
+		else if ((a % 5 == 0) && (a % 3 == 0))
 		{
 			printf("%s ", fb);
 		}
