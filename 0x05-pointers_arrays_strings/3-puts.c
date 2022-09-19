@@ -1,8 +1,7 @@
 #include "main.h"
 /**
  * _puts - prints the given string to stdout
- * @str: char array string type
- * Description: Can only use _putchar
+ * @str: pointer variable of char type which holds the string
  */
 
 void _puts(char *str)

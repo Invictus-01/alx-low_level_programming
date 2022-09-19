@@ -1,8 +1,7 @@
 #include "main.h"
 /**
  * puts2 - function should print only one character out of two
- * starting with the first one
- * @str: input
+ * @str: the pointer variable hold the user input
  * Return: printed character
  */
 void puts2(char *str)

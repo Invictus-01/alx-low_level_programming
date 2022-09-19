@@ -2,23 +2,23 @@
 #include "main.h"
 /**
  * print_array - main function that prints n elements of an array
- * @a: array name
- * @n: is the number of elements OF the array to be printed
- * Return: a and n inputs
+ * @a: pointer to the array
+ * @n: is the number of elements of the array to be printed
+ * Return: both a and n inputs as given
  */
 void print_array(int *a, int n)
 {
-	int i;
+	int c;
 
-	for (i = 0; i < n; i++)
+	for (c = 0; c < n; c++)
 	{
-		if (i == 0)
+		if (c == 0)
 		{
-			printf("%d", a[i]);
+			printf("%d", a[c]);
 		}
 		else
 		{
-			printf(", %d", a[i]);
+			printf(", %d", a[c]);
 		}
 	}
 		printf("\n");

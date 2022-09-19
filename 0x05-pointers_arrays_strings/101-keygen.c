@@ -1,16 +1,15 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <time.h>
+#include <stdlib.h>
 /**
- * main - program that generates random valid
- * passwords for the program 101-crackme
+ * main - program that generates valid passwords randomly
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int pass[100];
-	int a, sum, n;
+	int a, b, sum;
 
 	sum = 0;
 
@@ -23,9 +22,9 @@ int main(void)
 		putchar(pass[a] + '0');
 		if ((2772 - sum) - '0' < 78)
 		{
-			n = 2772 - sum - '0';
-			sum += n;
-			putchar(n + '0');
+			b = 2772 - sum - '0';
+			sum += b;
+			putchar(b + '0');
 			break;
 		}
 	}
