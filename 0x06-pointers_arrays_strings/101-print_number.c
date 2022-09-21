@@ -1,8 +1,9 @@
 #include "main.h"
+
 /**
- * print_number - the function that prints an integer using  _putchar
- * @n: the given integer to be printed
- */
+* print_number - the function that prints an integer using  _putchar
+* @n: the given integer to be printed
+*/
 void print_number(int n)
 {
 	unsigned int n1;
