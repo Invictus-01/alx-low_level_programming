@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * rot13 - function that rotates first 13 characters with the second 13 in the alphabet
+ * rot13 - rotates first 13 characters with the second 13 in the alphabet
  * @c: the pointer variable holding the string
  * Return: the rotated string 'c'
  */
