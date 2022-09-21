@@ -3,44 +3,21 @@
  * print_number - the function that prints an integer using  _putchar
  * @n: the given integer to be printed
  */
-
 void print_number(int n)
 {
-	int p, m, co;
+	unsigned int n1;
 
-	m = 0;
-	p = 1;
-	co = n;
 	if (n < 0)
 	{
+		n1 = -n;
 		_putchar('-');
-		m = 1;
-	}
-
-	while (co > 9 || co < -9)
+	} else
 	{
-		p *= 10;
-		co /= 10;
+		n1 = n;
 	}
 
-	while (p > 0)
-	{
-		if (p > 9)
-		{
-			if (!m)
-				_putchar((n / p % 10) + '0');
-			else
-				_putchar((n / p % 10) * -1 + '0');
+	if (n1 / 10)
+		print_number(n1 / 10);
 
-			p /= 10;
-		}
-		if (p == 1)
-		{
-			if (m)
-				_putchar((n % 10) * -1 + '0');
-			else
-				_putchar(n % 10 + '0');
-			p = 0;
-		}
-	}
+	_putchar((n1 % 10) + '0');
 }
