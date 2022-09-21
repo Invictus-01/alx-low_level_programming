@@ -14,8 +14,7 @@ char *rot13(char *c)
 	{
 		if ((c[a] > 64 && c[a] < 91) || (c[a] > 96 && c[a] < 123))
 		{
-			c[a] = (c[a] - 65 > 25) ?
-				str1[c[a] - 97] : str2[c[a] - 65];
+			c[a] = ((c[a] - 65) > 25) ? str1[c[a] - 97] : str2[c[a] - 65];
 		}
 	}
 	return (c);
