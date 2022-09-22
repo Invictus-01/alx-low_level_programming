@@ -2,6 +2,7 @@
 
 /**
 * print_number - function that prints an integer
+*
 * @n: the given integer
 */
 void print_number(int n)
