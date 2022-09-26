@@ -5,19 +5,19 @@
  */
 void print_chessboard(char (*a)[8])
 {
-	int b, i;
+	int x, y;
 
-	i = 0;
-	b = 0;
-	while (a[b][i] != '\0')
+	x = 0;
+	y = 0;
+	while (a[y][x] != '\0')
 	{
-		while (i < 8)
+		while (x < 8)
 		{
-			_putchar(a[b][i]);
-			i++;
+			_putchar(a[y][x]);
+			x++;
 		}
-		i = 0;
+		x = 0;
 		_putchar('\n');
-		b++;
+		y++;
 	}
 }
