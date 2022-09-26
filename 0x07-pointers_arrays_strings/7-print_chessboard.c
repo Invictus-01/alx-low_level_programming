@@ -1,4 +1,4 @@
-#include "mainn.h"
+#include "main.h"
 /**
  * print_chessboard - the function that prints chessboard
  * @a: the given array
