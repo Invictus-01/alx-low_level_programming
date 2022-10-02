@@ -1,4 +1,4 @@
-#include "mainn.h"
+#include "main.h"
 int div(int n, int d);
 int is_prime_number(int n);
 /**
